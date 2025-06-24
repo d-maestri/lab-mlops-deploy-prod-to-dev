@@ -19,4 +19,11 @@
 # 6 - Install dependencies from requirements.txt
 # python -m pip install -r requirements.txt
 
+import pandas as pd
+
 print("Hello World!")
+print("The world needs pandas!")
+
+housingdat = pd.read_csv('../data/king_county_houses_aa.csv')
+
+housingdat.head()
