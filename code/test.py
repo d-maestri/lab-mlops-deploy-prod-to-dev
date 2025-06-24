@@ -26,4 +26,6 @@ print("The world needs pandas!")
 
 housingdat = pd.read_csv('../data/king_county_houses_aa.csv')
 
+print("Hello World!")
+
 housingdat.head()
