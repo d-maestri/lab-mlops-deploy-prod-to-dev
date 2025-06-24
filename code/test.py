@@ -13,3 +13,6 @@ print("Now that I have direct access, I can just do what I want, harharharhar")
 
 print("Check the dataset", housingdat.head(10))
 print(f'Actually this is better done with an f-string: {housingdat.describe()}')
+
+
+print('But I want to add stuff on my own!!')
