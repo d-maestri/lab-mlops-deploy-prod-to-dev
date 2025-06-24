@@ -16,3 +16,6 @@ python -m pip freeze > requirements.txt
 
 6.  Install dependencies from requirements.txt
 python -m pip install -r requirements.txt
+
+7.  Run the project
+python -m test
