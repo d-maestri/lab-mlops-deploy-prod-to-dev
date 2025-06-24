@@ -29,4 +29,3 @@ housingdat = pd.read_csv('../data/king_county_houses_aa.csv')
 print(housingdat.head())
 print("Hello World!")
 
-housingdat.head()
